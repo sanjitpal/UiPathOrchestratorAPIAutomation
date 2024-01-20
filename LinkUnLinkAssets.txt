@@ -1,0 +1,11 @@
+{
+  "AssetIds": [
+    907838
+  ],
+  "ToAddFolderIds": [
+    4765339
+  ],
+  "ToRemoveFolderIds": [
+    0
+  ]
+}

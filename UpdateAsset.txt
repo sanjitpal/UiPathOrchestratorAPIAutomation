@@ -1,0 +1,10 @@
+{
+  "Name": "TestAddAsset",
+  "ValueScope": "Global",
+  "ValueType": "Text",
+  "StringValue": "Robobix",
+  "CredentialUsername": "",
+  "CredentialPassword": "",
+  "Description": "Update asset via api",
+  "Id": 902087
+}

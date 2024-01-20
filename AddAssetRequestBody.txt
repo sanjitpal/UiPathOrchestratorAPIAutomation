@@ -1,0 +1,8 @@
+{
+    "Name": "TestAddAssetCred",
+    "ValueScope": "Global",
+    "ValueType": "Credential", 
+    "StringValue": "",
+    "CredentialUsername" : "robobix",
+    "CredentialPassword" : "robobix"
+}

@@ -1,0 +1,6 @@
+"startInfo": {
+        "ReleaseKey": "9ae3aa71-65f0-4f03-aa68-f7de8baf3021",
+        "Strategy": "ModernJobsCount",
+        "JobsCount": 1,
+        "InputArguments": "{\"Number1\":\"1\",\"Number2\":\"2\"}"
+    }

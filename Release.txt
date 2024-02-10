@@ -1,0 +1,28 @@
+﻿1. Get Processes	--------> 	End Point -- /odata/Releases           													   | Method - Get  | Expected Status Code - 200
+2. Create Process	--------> 	End Point -- /odata/Releases           								            		   | Method - Post | Expected Status Code - 201
+3. Delete Process	--------> 	End Point -- /api/Releases/DeleteByKey?key=Key						   | Method - Post | Expected Status Code - 204
+4. Get Jobs			-------->	End Point -- /odata/Jobs			   														   | Method - Get  | Expected Status Code - 200
+5. Start Job		-------->	End Point -- /odata/Jobs/UiPath.Server.Configuration.OData.StartJobs | Method - Post | Expected Status Code - 201
+6. Kill Job			-------->	End Point -- /odata/Jobs/UiPath.Server.Configuration.OData.StopJobs | Method - Post | Expected Status Code - 200
+
+Common Headers
+
+Authorization - "Bearer "
+X-UIPATH-OrganizationUnitId - 4765339
+
+
+{
+	startInfo
+		{
+			ReleaseKey
+			Strategy
+			JobsCount
+		}
+}
+
+{
+  "strategy": "SoftStop",
+  "jobIds": [
+    0
+  ]
+}

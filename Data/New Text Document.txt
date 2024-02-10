@@ -1,0 +1,10 @@
+﻿String.Format("{0}/odata/QueueDefinitions({1})/UiPathODataSvc.Reports?$filter=QueueDefinitionId eq {1}", in_Config("OrchestratorURL"), in_QueueID)
+
+App ID: 01dfd287-ecbe-420e-bd84-805e55654757
+
+App Secret: Ks%9a_OgA#k!*_Dk
+
+
+App ID: 01dfd287-ecbe-420e-bd84-805e55654757
+
+App Secret: Ks%9a_OgA#k!*_Dk
